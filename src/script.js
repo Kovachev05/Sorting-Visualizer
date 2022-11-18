@@ -230,25 +230,3 @@
         }
         printChart();
     }
-
-    /*
-    ToDo: 
-    PRINT BAR CHART BUTTON
-    //- Create getArray function to get array of strings
-    //- Create arrayToInt function to convert string of numbers into integers
-    //- Create a canvas to draw rectangles on
-    //- Draw bars on canvas with data from int array
-    //- Fix issue with intArr.length
-    //- Fix issue with input[j] ignoring repeating values
-    //- Fix border issue
-    //- Highlight all bars in green when completed
-    - Assign a sound with each bar, the pitch being determined by the height
-    
-    SORT BAR CHART BUTTON
-    //- Create Bubble Sort function to sort array of ints in ascending order
-    //- Print bar chart after each iteration
-    //- Fix issue with sorting not stopping with intArr having < 3 values
-    //- Put some wait times between each sort iteration 
-    //- Change color of switching bar to green
-    - Replace Bubble Sort with Quick Sort to increase efficiency
-    */
