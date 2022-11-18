@@ -1,5 +1,5 @@
 <h1 align="center">Sorting-Visualizer</h1>
-<h2 align="center">Visually sort an array of values</h2>
+<p align="center">Visually sort an array of values</p>
 
 #Functionality
 - Enter values in input field 
