@@ -1,5 +1,6 @@
     // Declare global vars
     let intArr = [
+    // Remove comments under and comment out lines 104 and 108 to directly store values in intArr
     /*
         32, 44, 27, 6, 13, 31, 52, 37, 1, 21, 23, 35, 10, 26, 51, 40, 15, 46, 3, 5,
         53, 7, 32, 52, 13, 49, 31, 25, 30, 18, 22, 27, 35, 51, 14, 48, 19, 11, 47, 3,
@@ -30,7 +31,7 @@
         4, 47, 25, 42, 15, 2, 43, 6, 44, 23
     */
 
-    ///*
+    /*
     11, 13, 47, 42, 12, 29, 26, 33, 34, 28, 8, 44, 1, 48, 24, 36, 10, 18, 40, 22, 5, 2, 27, 50, 23, 20, 37, 25, 39, 45,
     36, 25, 48, 30, 12, 1, 33, 31, 6, 41, 14, 15, 38, 37, 20, 35, 13, 16, 39, 18, 43, 47, 49, 32, 28, 24, 11, 4, 7, 23,
     11, 39, 30, 19, 44, 12, 7, 38, 29, 48, 45, 9, 26, 16, 40, 17, 27, 3, 21, 49, 15, 5, 6, 24, 42, 8, 33, 10, 20, 31,
@@ -51,7 +52,7 @@
     14, 24, 18, 13, 46, 38, 30, 10, 3, 25, 7, 5, 2, 1, 36, 4, 21, 20, 35, 12, 17, 28, 33, 31, 22, 37, 42, 19, 16, 15,
     26, 24, 1, 17, 9, 29, 8, 37, 6, 49, 40, 30, 36, 47, 14, 39, 28, 32, 4, 38, 31, 10, 27, 11, 3, 43, 41, 46, 44, 35,
     20, 23, 21, 11, 4, 42, 17, 43, 32, 50, 38, 29, 8, 46, 27, 9, 34, 36, 48, 39, 41, 40, 26, 25, 1, 33, 16, 49, 47, 24
-    //*/
+    */
     ];
     let movedBar; 
     let abort; 
@@ -100,11 +101,11 @@
             inputArr.push(buffer);
             x++;
         }
-        //intArr = [];
+        intArr = []; // <--- comment this out when directly inputting values in intArr
         // Convert array into int array
         for(let k = 0; k < inputArr.length; k++)
         {
-            //intArr[k] = parseInt(inputArr[k]);
+            intArr[k] = parseInt(inputArr[k]); // <--- comment this out when directly inputting values in intArr
         }
         console.log(intArr.length);
         printChart();
@@ -229,44 +230,7 @@
         }
         printChart();
     }
-/*
-    let l; // Left
-    let r; // Right
-    let m; // Middle
-    function mergeSort()
-    {
-        l = 0;
-        r = intArr.length - l;
-        (intArr.length % 2 == 0) ? m = intArr.length/2 : m = (intArr.length + 1)/2;
-        merge(l,r,m);
-    }
 
-    function merge(l,r,m)
-    {      
-        n1 = m - l + 1
-        n2 = r - m
-
-        var L = new Array(n1);
-        var R = new Array(n2);
-
-        for(let i = l; i < m + 1; i++)
-        {
-            L[i] = intArr[i];
-        }
-        for(let j = m; j < r; j++)
-        {
-            R[j] = intArr[j];
-        }
-
-        let i = 0;
-        let j = 0;
-        let k = 0;
-        for(L[i] <= R[j])
-        {
-        
-        }
-    }   
- */
     /*
     ToDo: 
     PRINT BAR CHART BUTTON
