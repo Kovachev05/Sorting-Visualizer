@@ -1,0 +1,106 @@
+body
+{
+    text-align: center;
+    background-color: rgb(13, 17, 23);
+}
+
+h1
+{
+    font-size: 200%;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+
+.container1
+{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.canvas
+{
+    margin-top: 5%;
+}
+
+/*
+Remove comments to add border to canvas
+.canvas
+{
+    outline: black 3px solid;
+}
+*/
+
+/*inputs*/
+
+.btn
+{
+    border: 2px solid rgb(13, 17, 23);
+    background-color: rgb(13, 17, 23);
+    color: rgb(13, 17, 23);
+    padding: 14px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 1s;
+    width: 7%;
+}
+
+.sort
+{
+    border-color: #34db3c;
+    color: #34db3c;
+    margin-right: 2%;
+}
+
+.print
+{
+    border-color: #f44336;
+    color: #f44336;
+    margin-left: 2%;
+}
+
+.inputnum
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2196F3;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 1s;
+}
+
+/*hover*/
+
+.sort:hover
+{
+    background-color: #34db3c;
+    color: white;
+    width: 10%;
+}
+
+.print:hover
+{
+    background-color: #f44336;
+    color: white;
+    transition: 1s;
+    width: 10%;
+}
+
+.inputnum:hover
+{
+    transition: 1s;
+    width: 10%;
+}
+
+/*disabled*/
+
+button:disabled
+{
+    pointer-events: none;
+    opacity: 0.3;
+}
