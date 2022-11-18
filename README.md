@@ -2,7 +2,7 @@
 <p align="center">
   Visually sort an array of values
   
-  ![image](https://user-images.githubusercontent.com/63375470/202807178-2691278d-a340-4241-b2f1-7b2325b73fde.png)
+  ![canvas](https://user-images.githubusercontent.com/63375470/202807861-60ef69eb-2c3f-4517-9ced-019301907f60.png)
 </p>
 
 ## Functionality
